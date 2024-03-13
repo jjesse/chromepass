@@ -1,4 +1,5 @@
 # chromepass
+
 [![Build Status](https://jenkins.bierschi.com/buildStatus/icon?job=chromepass)](https://jenkins.bierschi.com/job/chromepass/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/bierschi/chromepass/blob/master/LICENSE)
 <!--[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
@@ -11,12 +12,12 @@
 
 ![Alt Text](chromepass.gif)
 
-
 ## Installation
 
 first ensure that you have `git` and `python` installed
 
 ### Linux
+
 install [chromepass](https://pypi.org/project/chromepass/) with pip
 <pre><code>
 pip3 install chromepass
@@ -60,6 +61,7 @@ py -3.8 -m pip install --upgrade setuptools
 </code></pre>
 
 ## Usage and Examples
+
 Print the available arguments
 <pre><code>
 chromepass --help
@@ -87,8 +89,10 @@ pyinstaller --onefile --name chromepass chromepass/main.py
 </code></pre>
 
 ## Changelog
+
 All changes and versioning information can be found in the [CHANGELOG](https://github.com/bierschi/chromepass/blob/master/CHANGELOG.rst)
 
 ## License
+
 Copyright (c) 2020 Bierschneider Christian. See [LICENSE](https://github.com/bierschi/chromepass/blob/master/LICENSE)
 for details
